@@ -9,4 +9,4 @@ gulp.task('news', function() {
       open: true,
       port: 8500
     }));
-});
+})
