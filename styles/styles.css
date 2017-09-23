@@ -8,8 +8,22 @@ main {
 }
 .titulo {
     background: rgba(0,0,0,0.6);
+    text-align: justify;
+}
+.tt{
+    padding: 20px;
+}
+.ta{
+    text-align: center;
 }
 #video{
     position: fixed;
     z-index: -1;
+}
+#redes{
+    font-size: 40px;
+    display: inline-flex;
+}
+.red-ic{
+    padding-left: 20px;
 }
