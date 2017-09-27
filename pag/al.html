@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="icon" href="../assets/img/icono.ico">
+    <link rel="stylesheet" href="../styles/fonts/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <div id="video">
+        <video autobuffer autoloop loop autoplay="true" muted="1">
+            <source src="../assets/vid/a.mp4" frameborder="0" allowfullscreen>
+        </video>
+    </div>
+    <!--BARRA DE NAVEGACION-->
+    <nav class="nav-extended purple darken-2">
+        <div class="nav-wrapper">
+            <a href="../index.html" class="brand-logo">TECH_@_NEWS</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="redes_sociales.html">REDES SOCIALES</a></li>
+                <li><a href="autotecnologia.html">AUTOTECNOLOGÍA</a></li>
+                <li><a href="ciudad.html">CIUDAD INTELIGENTE</a></li>
+                <li><a href="vida.html">VIDA DIGITAL</a></li>
+                <li><a href="movil.html">MOVIL</a></li>
+            </ul>
+            <ul class="side-nav purple darken-2" id="mobile-demo">
+                <li><a href="redes_sociales.html">REDES SOCIALES</a></li>
+                <li><a href="autotecnologia.html">AUTOTECNOLOGÍA</a></li>
+                <li><a href="ciudad.html">CIUDAD INTELIGENTE</a></li>
+                <li><a href="vida.html">VIDA DIGITAL</a></li>
+                <li><a href="movil.html">MOVIL</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--REDES SOCIALES-->
+    <div class="container white-text">
+        <div class="row titulo">
+            <div class="tt">
+                <h2 class="ta">¡Alerta! El troyano bancario BankBot vuelve a Google Play</h2>
+                <img class="responsive-img" src="../assets/img/al.jpg"> 
+                <h5>
+                    La firma de seguridad ESET alerta de que ha sido detectado un juego en Google Play que infecta con malware los móviles Android. La aplicación se llama Jewels Star Classic y el virus que propaga es BankBot, un troyano bancario que fue descubierto a primeros de año. <br><br>
+                    
+                    El pasado mes de enero se filtró el código fuente de un malware bancario en un foro de hacking de la Deep Web. Más tarde, algunos criminales aprovecharon este código para crear una nueva amenaza más potente, con la finalidad de que el virus resultante pudiera eludir los controles de seguridad de Google Play, y así nació BankBot.<br><br>
+                    
+                    
+                    Los primeros ataques de este troyano bancario se detectaron en Rusia, pero a partir de febrero el modelo se exportó a los bancos de otros países. Más tarde, en abril fueron identificadas dos nuevas campañas de Bankbot en aplicaciones de Google Play con cepas más sofisticadas del virus que se dirigían a bancos presentes en España, entre ellos el Banco Santander o ING.<br><br> 
+                    
+                    Juego Android con malware
+                    La nueva versión de este malware para Android está oculta en el juego Jewels Star Classic, cuyo nombre pretende asociarse con la popular saga Jewels Star con el objetivo de parecer legítimo. El virus permanece oculto durante 20 minutos después de la primera ejecución de la aplicación, y transcurrido este tiempo se muestra una alerta que indica que es necesario activar Google Service para que las apps funcionen adecuadamente. <br><br>
+                    
+                    Este servicio no tiene nada que ver con Google, sino que utiliza este nombre para que el usuario no sospeche ante los permisos requeridos, que son observar las acciones del usuario, recuperar contenido de la ventana, activar Explore by Touch, activar la accesibilidad web mejorada y ejecutar acciones. En caso de conceder el permiso, la víctima le da libre acceso al troyano, que instalará y configurará el malware. 
+                </h5>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="page-footer purple darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">TECH_@_NEWS</h5>
+                    <p class="grey-text text-lighten-4">Aquí encontrarás el mejor contenido en noticias de tecnología, actualizate y conoce sobre lo que nos rodea actualmente!</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Redes Sociales</h5>
+                    <ul id="redes">
+                        <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="#!"><i class="icon-facebook"></i></a></li>
+                        <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="https://plus.google.com/u/1/?pageId=none"><i class="icon-google"></i></a></li>
+                        <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="#!"><i class="icon-twitter"></i></a></li>
+                        <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="#!"><i class="icon-mobile"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Peter & Fabio © 2017
+            </div>
+        </div>
+    </footer>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
