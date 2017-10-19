@@ -16,3 +16,7 @@ $('.slider').slider('start');
 $('.slider').slider('next');
 // Previous slide
 $('.slider').slider('prev');
+
+$(document).ready(function(){
+    $('.parallax').parallax();
+});
