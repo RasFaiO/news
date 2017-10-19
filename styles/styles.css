@@ -33,3 +33,9 @@ main {
     margin-top: 10px;
     margin-left: 10px;
 }
+.parallax-container {
+    height: 400px;
+}
+.foot_bottom{
+    bottom: 0;
+}
