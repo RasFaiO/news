@@ -5,61 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
-    <link rel="icon" href="../assets/img/icono.ico">
-    <link rel="stylesheet" href="../styles/fonts/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="../assets/img/icono.ico">
+    <!-- build:remove ../styles/main.css ../build/styles -->
+    <link rel="stylesheet" href="../styles/fonts/style.css">
     <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
     <link rel="stylesheet" href="../styles/styles.css">
+    <!-- endbuild -->
 </head>
 <body>
-    <div id="video">
-        <video autobuffer autoloop loop autoplay="true" muted="1">
-            <source src="../assets/vid/a.mp4" frameborder="0" allowfullscreen>
-        </video>
-    </div>
     <!--BARRA DE NAVEGACION-->
-    <nav class="nav-extended purple darken-2">
-        <div class="nav-wrapper">
-            <a href="../index.html" class="brand-logo">TECH_@_NEWS</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="redes_sociales.html">REDES SOCIALES</a></li>
-                <li><a href="autotecnologia.html">AUTOTECNOLOGÍA</a></li>
-                <li><a href="transformacion.html">TRANSFORMACIÓN DIGITAL</a></li>
-                <li><a href="vida.html">VIDA DIGITAL</a></li>
-                <li><a href="movil.html">MOVIL</a></li>
-            </ul>
-            <ul class="side-nav purple darken-2" id="mobile-demo">
-                <li><a href="redes_sociales.html">REDES SOCIALES</a></li>
-                <li><a href="autotecnologia.html">AUTOTECNOLOGÍA</a></li>
-                <li><a href="transformacion.html">TRANSFORMACIÓN DIGITAL</a></li>
-                <li><a href="vida.html">VIDA DIGITAL</a></li>
-                <li><a href="movil.html">MOVIL</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!--REDES SOCIALES-->
-    <div class="container white-text">
-        <div class="row titulo">
-            <div class="tt">
-                <h2 class="ta">CONOCE EL PROTOTIPO DE MOTO VOLADORA DE LEGO Y BMW</h2>
-                <img class="responsive-img" src="../assets/img/au5.png"> 
-                <h5>
-                        Una vez más Lego ha demostrado que la imaginación no tiene límites, luego de haber presentado junto a BMW el prototipo ‘Hover Ride Design Concept’, el cual recreó la ‘BMW Motorrad R 1200 GS‘ que inicialmente salió en la línea Technic de Lego. <br><br>
-                        
-                        La razón de su construcción a una escala real fue el inquebrantable lazo que se creó entre el prototipo en Lego y los científicos e ingenieros de BMW. Fue tan grande la atracción que sintieron que decidieron agregarle una característica más: que pueda volar. Además, el modelo a escala real es tan semejante al Technic que se pueden disfrutar cada uno de los detalles, los cuales estuvieron a cargo de BMW.<br><br>
-                        
-                        “Fue una gran idea y un magnífico desafío creativo desarrollar un prototipo del ‘Technic BMW R 1200 GS Adventure’. Nuestro concepto no sólo incorpora el diseño de ‘BMW Motorrad’ con elementos típicos como el motor boxer y la característica silueta GS basados en el estilo Lego Technic”, dijo Alexander Buckan, jefe de BMW Motorrad en entrevista a CarandBike.<br><br>
-                        
-                        
-                        
-                        En BMW son conscientes de la evolución del mercado, y por ello han implementado estos nuevos modelos para que muy pronto hagan parte de sus líneas de productos. Todos han sido desarrollados a la par por empresas que buscan romper las barreras del cliente a bordo de una moto.<br><br>
-                        
-                        Aunque el modelo de la ‘Hover Ride’ no es funcional, la multinacional de motos y vehículos lo presentará en centros de Motorrad en Europa, después de haberlo revelado oficialmente al mundo en el Lego World que se llevó a cabo en Copenhague (Dinamarca) hace unos días.<br><br>
-                        
-                        Además, su lanzamiento al mercado parece ser bien lejana, ya que los encargados de iniciar la misión fueron los de la BMW Junior, subdivisión de la empresa que se encargó de construir el prototipo a escala. Y si a esto se le suman los innumerables errores que deben corregir para que el vuelo en la moto sea seguro, la ‘Hover Ride’ puede tardar mucho más tiempo en salir al mercado.
-                </h5>
+    <div class="navbar-fixed">
+        <nav class="nav-extended purple darken-2">
+            <div class="nav-wrapper">
+                <a href="../index.html" class="brand-logo logo-img"><img class="circle" src="../assets/img/icono.png"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="redes_sociales.html">REDES SOCIALES</a></li>
+                    <li><a href="autotecnologia.html">AUTOTECNOLOGÍA</a></li>
+                    <li><a href="transformacion.html">TRANSFORMACIÓN DIGITAL</a></li>
+                    <li><a href="vida.html">VIDA DIGITAL</a></li>
+                    <li><a href="movil.html">MOVIL</a></li>
+                </ul>
+                <ul class="side-nav purple darken-2" id="mobile-demo">
+                    <li><a href="redes_sociales.html">REDES SOCIALES</a></li>
+                    <li><a href="autotecnologia.html">AUTOTECNOLOGÍA</a></li>
+                    <li><a href="transformacion.html">TRANSFORMACIÓN DIGITAL</a></li>
+                    <li><a href="vida.html">VIDA DIGITAL</a></li>
+                    <li><a href="movil.html">MOVIL</a></li>
+                </ul>
             </div>
+        </nav>
+    </div>
+    <!--REDES SOCIALES-->
+    <div class="parallax-container">    
+        <div class="parallax">
+            <img class="responsive-img" src="../assets/img/au5.png"> 
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">CONOCE EL PROTOTIPO DE MOTO VOLADORA DE LEGO Y BMW</h2>
+            <h5>
+                Una vez más Lego ha demostrado que la imaginación no tiene límites, luego de haber presentado junto a BMW 
+                el prototipo ‘Hover Ride Design Concept’, el cual recreó la ‘BMW Motorrad R 1200 GS‘ que inicialmente salió 
+                en la línea Technic de Lego. <br><br>
+                La razón de su construcción a una escala real fue el inquebrantable lazo que se creó entre el prototipo en 
+                Lego y los científicos e ingenieros de BMW. Fue tan grande la atracción que sintieron que decidieron agregarle 
+                una característica más: que pueda volar. Además, el modelo a escala real es tan semejante al Technic que se 
+                pueden disfrutar cada uno de los detalles, los cuales estuvieron a cargo de BMW.<br><br>
+                “Fue una gran idea y un magnífico desafío creativo desarrollar un prototipo del ‘Technic BMW R 1200 GS 
+                Adventure’. Nuestro concepto no sólo incorpora el diseño de ‘BMW Motorrad’ con elementos típicos como el motor 
+                boxer y la característica silueta GS basados en el estilo Lego Technic”, dijo Alexander Buckan, jefe de BMW 
+                Motorrad en entrevista a CarandBike.<br><br>
+            </h5>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img class="responsive-img" src="../assets/img/au5.png">
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h5>
+                En BMW son conscientes de la evolución del mercado, y por ello han implementado estos nuevos modelos para que 
+                muy pronto hagan parte de sus líneas de productos. Todos han sido desarrollados a la par por empresas que buscan 
+                romper las barreras del cliente a bordo de una moto.<br><br>
+                Aunque el modelo de la ‘Hover Ride’ no es funcional, la multinacional de motos y vehículos lo presentará en centros 
+                de Motorrad en Europa, después de haberlo revelado oficialmente al mundo en el Lego World que se llevó a cabo en 
+                Copenhague (Dinamarca) hace unos días.<br><br>
+                Además, su lanzamiento al mercado parece ser bien lejana, ya que los encargados de iniciar la misión fueron los de 
+                la BMW Junior, subdivisión de la empresa que se encargó de construir el prototipo a escala. Y si a esto se le suman 
+                los innumerables errores que deben corregir para que el vuelo en la moto sea seguro, la ‘Hover Ride’ puede tardar 
+                mucho más tiempo en salir al mercado.
+            </h5>
         </div>
     </div>
     <!--FOOTER-->
@@ -67,14 +87,14 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">TECH_@_NEWS</h5>
-                    <p class="grey-text text-lighten-4">Aquí encontrarás el mejor contenido en noticias de tecnología, actualizate y conoce sobre lo que nos rodea actualmente!</p>
+                    <h5 class="white-text">WORLD NEWS</h5>
+                    <p class="grey-text text-lighten-4">Aquí encontrarás el mejor contenido en noticias tecnológicas, actualizate y conoce sobre lo que nos rodea actualmente en el mundo de la tecnología!</p>
                 </div>
-                <div class="col l4 offset-l2 s12">
+                <div class="col l4 offset-l2">
                     <h5 class="white-text">Redes Sociales</h5>
                     <ul id="redes">
                         <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="#!"><i class="icon-facebook"></i></a></li>
-                        <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="https://plus.google.com/u/1/?pageId=none"><i class="icon-google"></i></a></li>
+                        <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="https://plus.google.com/u/0/"><i class="icon-google"></i></a></li>
                         <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="#!"><i class="icon-twitter"></i></a></li>
                         <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="#!"><i class="icon-mobile"></i></a></li>
                     </ul>
@@ -83,12 +103,14 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                Peter & Fabio © 2017
+                Peter & RasFaiO © 2017
             </div>
         </div>
     </footer>
+    <!-- build:remove ../js/index.js ../build/js -->
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
     <script src="../js/main.js"></script>
+    <!-- endbuild -->
 </body>
 </html>

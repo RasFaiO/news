@@ -5,62 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
-    <link rel="icon" href="../assets/img/icono.ico">
-    <link rel="stylesheet" href="../styles/fonts/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="../assets/img/icono.ico">
+    <!-- build:remove ../styles/main.css ../build/styles -->
+    <link rel="stylesheet" href="../styles/fonts/style.css">
     <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
     <link rel="stylesheet" href="../styles/styles.css">
+    <!-- endbuild -->
 </head>
 <body>
-    <div id="video">
-        <video autobuffer autoloop loop autoplay="true" muted="1">
-            <source src="../assets/vid/a.mp4" frameborder="0" allowfullscreen>
-        </video>
-    </div>
     <!--BARRA DE NAVEGACION-->
-    <nav class="nav-extended purple darken-2">
-        <div class="nav-wrapper">
-            <a href="../index.html" class="brand-logo">TECH_@_NEWS</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="redes_sociales.html">REDES SOCIALES</a></li>
-                <li><a href="autotecnologia.html">AUTOTECNOLOGÍA</a></li>
-                <li><a href="transformacion.html">TRANSFORMACIÓN DIGITAL</a></li>
-                <li><a href="vida.html">VIDA DIGITAL</a></li>
-                <li><a href="movil.html">MOVIL</a></li>
-            </ul>
-            <ul class="side-nav purple darken-2" id="mobile-demo">
-                <li><a href="redes_sociales.html">REDES SOCIALES</a></li>
-                <li><a href="autotecnologia.html">AUTOTECNOLOGÍA</a></li>
-                <li><a href="transformacion.html">TRANSFORMACIÓN DIGITAL</a></li>
-                <li><a href="vida.html">VIDA DIGITAL</a></li>
-                <li><a href="movil.html">MOVIL</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!--REDES SOCIALES-->
-    <div class="container white-text">
-        <div class="row titulo">
-            <div class="tt">
-                <h2 class="ta">Impulsando la innovación en el mundo digital</h2>
-                <img class="responsive-img" src="../assets/img/t1.jpeg"> 
-                <h5>En la economía digital actual, cada compañía es una empresa tecnológica. La tecnología de la información, además de apoyar el negocio, debe generar una ventaja competitiva. Pero para que esto ocurra tanto la TI como el negocio, deben transformarse para triunfar. <br><br>
-                        
-                        El mundo está cambiando más rápido de lo que ha sucedido en el pasado, y nadie sabe qué es lo que sucederá la semana entrante, el próximo mes o año. Muchas organizaciones son muy buenas en planificación estratégica, pero tomar ese camino ante un escenario cada vez más impredecible implica ciertos riesgos. Nuestros planes pueden quedar desactualizados, incluso antes de que lleguemos a realizarlos. Es por esta razón que tener una infraestructura de TI abierta y flexible puede ayudarnos a adaptarnos más rápido a los cambios. <br><br>
-                        
-                        Los líderes empresariales, tanto los CEO como los CIO, se están preguntando cómo ser más ágiles, cómo reaccionar con mayor rapidez o capitalizar mejor sus inversiones en TI para transitar la transformación digital en sus organizaciones. En este contexto, el open source se posiciona como la mejor respuesta ante la disrupción digital.<br><br>
-                        
-                        La innovación abierta y colaborativa impulsan las principales tendencias tecnológicas, a través de individuos que se animan a buscar nuevas soluciones para viejos problemas. Los valores del open source como la meritocracia, la colaboración y la transparencia juegan un papel fundamental para dar lugar a nuevas ideas y romper paradigmas, logrando un mayor desarrollo tecnológico.<br><br>
-                        
-                        Las organizaciones tienen la mirada puesta sobre los desafíos de la transformación digital y las posibilidades que ofrece la nube, así como nuevas tecnologías como los contenedores, la integración DevOps y los microservicios, para potenciar sus inversiones en infraestructuras y desarrollar aplicaciones modernas. Muchas veces, estos cambios requieren realizar una modificación profunda en la manera de concebir a la tecnología, para convertirla realmente en el motor de la innovación del negocio. <br><br>
-                        
-                        Este año será el año de la nube. Su adopción en todo el mundo ya es una realidad, porque les permite a las organizaciones prestar un mejor servicio al ofrecer soluciones más ágiles y flexibles. Y frente a la nube se presentan opciones diversas, desde la nube privada, pública, híbrida, hasta una estrategia multicloud que agrega resiliencia a través del desarrollo de apps en dos o más nubes. <br><br>
-                        
-                        En un entorno incierto, el objetivo del negocio está en maximizar las inversiones en TI y balancear los presupuestos para incorporar tecnologías innovadoras. Mientras que los costos continúan siendo una gran presión, la aceleración en la entrega de servicios, un mejor desempeño, mayores capacidades de autoservicios, y la conexión entre aplicaciones tradicionales y modernas serán las claves para el éxito en este entorno digital. Y en este sentido, las soluciones open source se presentan como las más indicadas para ayudar a las compañías para conducir la innovación a una velocidad más rápida.
-                        
-
-                </h5>
+    <div class="navbar-fixed">
+        <nav class="nav-extended purple darken-2">
+            <div class="nav-wrapper">
+                <a href="../index.html" class="brand-logo logo-img"><img class="circle" src="../assets/img/icono.png"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="redes_sociales.html">REDES SOCIALES</a></li>
+                    <li><a href="autotecnologia.html">AUTOTECNOLOGÍA</a></li>
+                    <li><a href="transformacion.html">TRANSFORMACIÓN DIGITAL</a></li>
+                    <li><a href="vida.html">VIDA DIGITAL</a></li>
+                    <li><a href="movil.html">MOVIL</a></li>
+                </ul>
+                <ul class="side-nav purple darken-2" id="mobile-demo">
+                    <li><a href="redes_sociales.html">REDES SOCIALES</a></li>
+                    <li><a href="autotecnologia.html">AUTOTECNOLOGÍA</a></li>
+                    <li><a href="transformacion.html">TRANSFORMACIÓN DIGITAL</a></li>
+                    <li><a href="vida.html">VIDA DIGITAL</a></li>
+                    <li><a href="movil.html">MOVIL</a></li>
+                </ul>
             </div>
+        </nav>
+    </div>
+    <!--REDES SOCIALES-->
+    <div class="parallax-container">    
+        <div class="parallax">
+            <img class="responsive-img" src="../assets/img/t1.jpeg"> 
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">IMPULSANDO LA INOVACIÓN EN EL MUNDO DIGITAL</h2>
+            <h5>
+                En la economía digital actual, cada compañía es una empresa tecnológica. La tecnología de la información, además 
+                de apoyar el negocio, debe generar una ventaja competitiva. Pero para que esto ocurra tanto la TI como el negocio, 
+                deben transformarse para triunfar. <br><br>
+                El mundo está cambiando más rápido de lo que ha sucedido en el pasado, y nadie sabe qué es lo que sucederá la semana 
+                entrante, el próximo mes o año. Muchas organizaciones son muy buenas en planificación estratégica, pero tomar ese 
+                camino ante un escenario cada vez más impredecible implica ciertos riesgos. Nuestros planes pueden quedar desactualizados, 
+                incluso antes de que lleguemos a realizarlos. Es por esta razón que tener una infraestructura de TI abierta y flexible 
+                puede ayudarnos a adaptarnos más rápido a los cambios. <br><br>
+                Los líderes empresariales, tanto los CEO como los CIO, se están preguntando cómo ser más ágiles, cómo reaccionar con 
+                mayor rapidez o capitalizar mejor sus inversiones en TI para transitar la transformación digital en sus organizaciones. 
+                En este contexto, el open source se posiciona como la mejor respuesta ante la disrupción digital.<br><br>
+            </h5>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img class="responsive-img" src="../assets/img/t1.jpeg">
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h5>
+                La innovación abierta y colaborativa impulsan las principales tendencias tecnológicas, a través de individuos que se 
+                animan a buscar nuevas soluciones para viejos problemas. Los valores del open source como la meritocracia, la colaboración 
+                y la transparencia juegan un papel fundamental para dar lugar a nuevas ideas y romper paradigmas, logrando un mayor 
+                desarrollo tecnológico.<br><br>
+                Así que BMW, Intel y Mobileye se han asociado para realizar pruebas con 40 vehículos autónomos en las carreteras públicas 
+                a finales de este año. De esta forma la tecnología de Intel y Mobileye se probará en carreteras en Estados Unidos y 
+                Europa. The Verge destacó que Intel invertirá 250 millones de dólares en los próximos dos años para el desarrollo de 
+                vehículos autónomos. <br><br>
+                El interés de Intel en Mobileye podría ayudarlo contra competidores como Nvidia y Qualcomm. Pues estos últimos 
+                fabricantes de chips han estado invirtiendo en vehículos, así que Intel parece estar pagando una cuota para ponerse 
+                al día y seguir adelante con sus planes de vehículos autónomos.
+            </h5>
         </div>
     </div>
     <!--FOOTER-->
@@ -68,14 +88,14 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">TECH_@_NEWS</h5>
-                    <p class="grey-text text-lighten-4">Aquí encontrarás el mejor contenido en noticias de tecnología, actualizate y conoce sobre lo que nos rodea actualmente!</p>
+                    <h5 class="white-text">WORLD NEWS</h5>
+                    <p class="grey-text text-lighten-4">Aquí encontrarás el mejor contenido en noticias tecnológicas, actualizate y conoce sobre lo que nos rodea actualmente en el mundo de la tecnología!</p>
                 </div>
-                <div class="col l4 offset-l2 s12">
+                <div class="col l4 offset-l2">
                     <h5 class="white-text">Redes Sociales</h5>
                     <ul id="redes">
                         <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="#!"><i class="icon-facebook"></i></a></li>
-                        <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="https://plus.google.com/u/1/?pageId=none"><i class="icon-google"></i></a></li>
+                        <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="https://plus.google.com/u/0/"><i class="icon-google"></i></a></li>
                         <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="#!"><i class="icon-twitter"></i></a></li>
                         <li class="red-ic"><a class="grey-text text-lighten-3 responsive-img" href="#!"><i class="icon-mobile"></i></a></li>
                     </ul>
@@ -84,12 +104,14 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                Peter & Fabio © 2017
+                Peter & RasFaiO © 2017
             </div>
         </div>
     </footer>
+    <!-- build:remove ../js/index.js ../build/js -->
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
     <script src="../js/main.js"></script>
+    <!-- endbuild -->
 </body>
 </html>
