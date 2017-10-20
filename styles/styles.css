@@ -2,12 +2,11 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Berkshire Swash', cursive;
 }
-
 main {
     flex: 1 0 auto;
 }
-
 .titulo {
     background: rgba(0,0,0,0.6);
     text-align: justify;
